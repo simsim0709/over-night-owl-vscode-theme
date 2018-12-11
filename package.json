@@ -1,0 +1,43 @@
+{
+  "name": "over-night-owl",
+  "displayName": "Over Night Owl",
+  "description": "A VS Code theme inspired by Night Owl and overreacted.io",
+  "version": "0.1.0",
+  "publisher": "simsim0709",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/simsim0709/over-night-owl-vscode-theme"
+  },
+  "keywords": [
+    "Theme",
+    "Dark Theme",
+    "Night Owl",
+    "Over Night Owl",
+    "Night Theme",
+    "Accessible Theme"
+  ],
+  "scripts": {
+    "publish": "vsce publish"
+  },
+  "galleryBanner": {
+    "color": "#061526",
+    "theme": "dark"
+  },
+  "engines": {
+    "vscode": "^1.17.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "owl-icon.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Over Night Owl",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Over Night Owl-color-theme.json"
+      }
+    ]
+  }
+}
